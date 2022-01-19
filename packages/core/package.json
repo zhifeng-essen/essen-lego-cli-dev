@@ -1,6 +1,6 @@
 {
   "name": "@essen-lego-cli-dev/core",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "essen-lego-cli-dev core",
   "author": "zhifeng-essen <zhifeng_essen@icloud.com>",
   "homepage": "",
@@ -15,5 +15,9 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "4c82a5ca271c87b8e6d78985e866866b27b787db",
+  "publishConfig": {
+    "access": "public"
   }
 }
