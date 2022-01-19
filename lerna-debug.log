@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'create' ], lernaVersion: '4.0.0', '$0': 'lerna', name: 'core' }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/zhifengxu/Code/lego/cli/essen-lego-cli-dev/essen-lego-cli-dev
+3 error Error: Command failed with exit code 1: git config --get user.name
+3 error     at makeError (/Users/zhifengxu/Code/lego/cli/essen-lego-cli-dev/essen-lego-cli-dev/node_modules/execa/lib/error.js:60:11)
+3 error     at Function.module.exports.sync (/Users/zhifengxu/Code/lego/cli/essen-lego-cli-dev/essen-lego-cli-dev/node_modules/execa/index.js:194:17)
+3 error     at Object.execSync (/Users/zhifengxu/Code/lego/cli/essen-lego-cli-dev/essen-lego-cli-dev/node_modules/@lerna/child-process/index.js:39:16)
+3 error     at CreateCommand.gitConfig (/Users/zhifengxu/Code/lego/cli/essen-lego-cli-dev/essen-lego-cli-dev/node_modules/@lerna/create/index.js:181:25)
+3 error     at CreateCommand.initialize (/Users/zhifengxu/Code/lego/cli/essen-lego-cli-dev/essen-lego-cli-dev/node_modules/@lerna/create/index.js:103:46)
+3 error     at /Users/zhifengxu/Code/lego/cli/essen-lego-cli-dev/essen-lego-cli-dev/node_modules/@lerna/command/index.js:274:24
